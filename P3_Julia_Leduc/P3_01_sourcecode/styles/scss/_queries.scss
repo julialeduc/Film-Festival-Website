@@ -1,0 +1,69 @@
+@media screen and (max-width:1000px){
+  .title-container h1{
+      font-size: 2.75rem;
+    }
+}
+
+
+@media screen and (max-width: 992px){
+  .about--img-left{
+    position: relative;
+  }
+
+  .about--img-right{
+    position: relative;
+  }
+
+  .about--text-col{
+    margin-right: 10px;
+  }
+
+  .about--btn{
+    margin-top: 0.5rem;
+    margin-bottom: 2rem;
+  }
+
+  .feature-box{
+    margin-bottom: 3rem;
+  }
+
+  .news--card {
+    margin-bottom: 5rem;
+  }
+
+  #day3, #day4 {
+    margin-top: 1rem;
+  }
+
+  .footer--link-container{
+    margin-top: 1rem;
+  }
+
+}
+
+
+@media screen and (max-width: 750px){
+  .title-container h1{
+      font-size: 2.25rem;
+    }
+
+  .about-text-col{
+    margin-right: 5px;
+  }
+}
+
+@media screen and (max-width: 768px){
+  .movie--card{
+    margin-bottom: 20px;
+  }
+
+  #day1, #day2 {
+    margin-top: 1rem;
+  }
+}
+
+@media (min-width: 576px){
+.card-deck .card {
+  margin-bottom: 2rem;
+}
+}

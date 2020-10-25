@@ -1,0 +1,32 @@
+
+.news--card{
+  transition: transform 0.5s;
+  background-color: $primary-greyish;
+  color: $primary-darkblack;
+}
+
+.news--card:hover{
+  transform: scale(1.05);
+  border-color: $primary-cherry;
+}
+
+.news--card-footer{
+  background-color: transparent;
+  margin-top: 1rem;
+}
+
+.news--btn{
+  background-color: $primary-cherry;
+  border: none;
+  color: $primary-white;
+  width: 100%;
+  margin-top: 1rem;
+}
+
+.news--btn:hover{
+  background-color: $primary-mandarine;
+}
+
+.news--title{
+  color: $primary-cherry;
+}

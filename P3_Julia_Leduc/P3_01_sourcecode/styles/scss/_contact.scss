@@ -1,0 +1,126 @@
+
+
+#contact{
+  background-image:linear-gradient(to right, rgba($primary-black,0.8),rgba($primary-darkred, 0.6)),url('https://cdn.wallpapersafari.com/98/23/MXsDGB.jpg');
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-color: #000000;
+  background-position: center center;
+  color: $primary-white;
+}
+
+.ticket--amount{
+  display: inline;
+  background-color: transparent;
+  border-color: white;
+  margin-left: 1rem;
+  color: white;
+}
+
+.ticket--movie-name{
+  display: block;
+  color: $primary-white;
+}
+
+.ticket--input{
+  background-color: transparent;
+  color: $primary-white !important;
+}
+
+.ticket--input:active{
+  background-color: transparent;
+  color: $primary-white !important;
+}
+
+.ticket--btn{
+  cursor: pointer;
+  border-radius: 3px;
+  padding: 15px;
+  width: 80%;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.1);
+  font-size: 16px;
+  color: $primary-offwhite;
+  background-color: $primary-cherry;
+  border-color: $primary-cherry;
+}
+
+.ticket--btn:hover{
+  background-color: transparent;
+  border: 1px solid $primary-cherry;
+  color: $primary-offwhite;
+  box-shadow: 0 0 0 0.2rem rgba(200,98,60,.5);
+}
+
+.ticket--form-container{
+  width: 100%;
+  margin: 0 auto;
+  box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.2);
+}
+
+.ticket--form-inner{
+  padding: 0 30px;
+}
+
+.ticket--heading{
+  font-weight: normal;
+  padding: 20px;
+  color: $primary-white;
+  text-align:center;
+  box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.1);
+}
+
+.ticket--input-holder{
+  position: relative;
+  margin-bottom: 25px;
+}
+
+.ticket--input-text, textarea{
+  width: 100%;
+  height: 40px;
+  border: none;
+  border-bottom: 1px solid $primary-white;
+  background: transparent;
+  color: $primary-white;
+}
+
+textarea{
+  min-height: 160px;
+  padding: 15px 0;
+}
+
+::placeholder{
+  opacity: 1;
+  position: absolute;
+  pointer-events: none;
+  transition: 0.2s ease all;
+  font-size: 16px;
+  color: $primary-white;
+
+}
+
+textarea::-webkit-input-placeholder{
+  color: $primary-white !important;
+}
+
+textarea::-moz-placeholder{
+  color: $primary-white !important;
+}
+
+input::-webkit-input-placeholder{
+  color: $primary-white !important;
+}
+
+input::-moz-placeholder{
+  color: $primary-white !important;
+}
+
+option.movie-option{
+  padding-left: 8px !important;
+}
+
+input:focus, textarea:focus, select:focus{
+  background-color: transparent !important;
+  border: 2px solid $primary-orange !important;
+  box-shadow: 0 0 0 0.2rem rgba(200,98,60,.5);
+}

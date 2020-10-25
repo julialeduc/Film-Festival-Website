@@ -1,0 +1,31 @@
+
+
+.customer-journey--icon{
+  color: $primary-darkred;
+}
+
+.customer-journey--icon:hover{
+  color: $primary-orange !important;
+}
+
+.customer-journey--heading{
+  color: $primary-darkblack;
+}
+
+.customer-journey--btn{
+  color: $primary-darkblack;
+}
+
+.customer-journey--btn::after{
+  background-color: transparent;
+  border: 1px solid $primary-darkblack;
+}
+
+.customer-journey--btn:hover{
+  color: $primary-darkblack;
+}
+
+.customer-journey--btn::before{
+  border-top-color: rgba(17,17,17,0.5);
+  border-bottom-color: rgba(17,17,17,0.5);
+}

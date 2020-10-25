@@ -1,0 +1,79 @@
+
+
+html {
+	scroll-behavior: smooth;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+body{
+    text-align: center !important;
+    line-height: 1.5;
+}
+  
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Libre Baskerville', serif;
+}
+  
+p{
+    font-size: 1.15rem;
+}
+  
+.margin-bottom-40{
+    margin-bottom: 40px;
+}
+
+// CTA Button
+
+.btn-cta {
+    color: #FFF;
+    transition: all 0.3s;
+    position: relative;
+}
+
+.btn-cta:hover{
+    color: $primary-white;
+}
+
+.btn-cta span {
+	transition: all 0.3s;
+}
+.btn-cta::before {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	opacity: 0;
+	transition: all 0.3s;
+	border-top-width: 1px;
+	border-bottom-width: 1px;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-top-color: rgba(255,255,255,0.5);
+	border-bottom-color: rgba(255,255,255,0.5);
+	transform: scale(0.1, 1);
+}
+.btn-cta:hover span {
+	letter-spacing: 2px;
+}
+.btn-cta:hover::before {
+	opacity: 1;
+	transform: scale(1, 1);
+}
+.btn-cta::after {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	transition: all 0.3s;
+	background-color: rgba(255,255,255,0.1);
+}
+.btn-cta:hover::after {
+	opacity: 0;
+	transform: scale(0.1, 1);
+}

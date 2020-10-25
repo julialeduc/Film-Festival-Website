@@ -1,0 +1,35 @@
+
+
+.about--text-col{
+  margin-right: 5rem;
+}
+
+.about--heading{
+  color: $primary-cherry;
+}
+
+.about--img-container{
+  position: relative;
+}
+
+.about--img {
+  transition: transform 0.5s;
+}
+
+.about--img:hover {
+  z-index: 99;
+  transform: scale(1.1);
+}
+
+.about--img-right{
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  z-index: 1;
+}
+
+.about--img-left{
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+}

@@ -1,0 +1,134 @@
+
+
+// Button Standard
+
+.btn-cta {
+    color: #FFF;
+    transition: all 0.3s;
+    position: relative;
+}
+
+.btn-cta:hover{
+    color: $primary-white;
+}
+
+.btn-cta span {
+	transition: all 0.3s;
+}
+.btn-cta::before {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	opacity: 0;
+	transition: all 0.3s;
+	border-top-width: 1px;
+	border-bottom-width: 1px;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-top-color: rgba(255,255,255,0.5);
+	border-bottom-color: rgba(255,255,255,0.5);
+	transform: scale(0.1, 1);
+}
+.btn-cta:hover span {
+	letter-spacing: 2px;
+}
+.btn-cta:hover::before {
+	opacity: 1;
+	transform: scale(1, 1);
+}
+.btn-cta::after {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	transition: all 0.3s;
+	background-color: rgba(255,255,255,0.1);
+}
+.btn-cta:hover::after {
+	opacity: 0;
+	transform: scale(0.1, 1);
+}
+
+// Button Header
+
+.header--btn{
+    line-height: 50px;
+    text-align: center;
+    width: 250px;
+    cursor: pointer;
+    font-size: 1.3rem;
+}
+
+.header--btn::after{
+    background-color: rgba(227,28,37,0.5);
+}
+
+  // Button Customer Journey
+
+.customer-journey--btn{
+    color: $primary-darkblack;
+}
+  
+.customer-journey--btn::after{
+    background-color: transparent;
+    border: 1px solid $primary-darkblack;
+}
+  
+.customer-journey--btn:hover{
+    color: $primary-darkblack;
+}
+  
+.customer-journey--btn::before{
+    border-top-color: rgba(17,17,17,0.5);
+    border-bottom-color: rgba(17,17,17,0.5);
+ }
+
+//  Button About
+
+.about--btn{
+    color: $primary-white;
+    line-height: 35px;
+    text-align: center;
+    width: 200px;
+    cursor: pointer;
+    font-size: 1.3rem;
+  }
+  
+  .about--btn::after{
+    background-color: rgba(200,63,60,0.8);
+  }
+  
+  .about--btn:hover{
+    color: $primary-white;
+  }
+  
+  .about--btn::before{
+    border-top-color: rgba(255,255,255,0.5);
+    border-bottom-color: rgba(255,255,255,0.5);
+  }
+
+  
+.date {
+    background-color: transparent;
+    border-color: white;
+    margin-bottom: 1rem;
+}
+  
+.date:hover{
+    background-color: transparent;
+    border-color: $primary-orange;
+}
+  
+.date:focus{
+    background-color: transparent;
+    border-color: $primary-orange;
+    box-shadow: 0 0 0 0.2rem rgba(200,98,60,.5);
+}
+  

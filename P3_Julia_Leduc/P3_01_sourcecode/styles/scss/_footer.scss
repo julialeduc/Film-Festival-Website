@@ -1,0 +1,19 @@
+
+
+#footer{
+  background-image: linear-gradient(to right, rgba($primary-darkblack,0.8),rgba($primary-darkred, 0.6)),url("https://i.ytimg.com/vi/XwPIpZRMc0E/maxresdefault.jpg");
+  color: $primary-white;
+}
+
+.footer--copyright, .footer--link {
+  color: $primary-white;
+}
+
+.footer--icon{
+  margin: 0 15px 0 15px;
+}
+
+.footer--link:hover{
+  color: $primary-orange !important;
+  text-decoration: none;
+}
